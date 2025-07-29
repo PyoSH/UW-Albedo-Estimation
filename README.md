@@ -15,6 +15,8 @@ And with _**albedo**_, we can estimate unknown object's surface texture & use as
 
 In this project, I tried to implement albedo estimation to understand physical component of UW visual environments.
 
+This work was presented at the 20th Korea Robotics Society Annual Conference Poster Session under the title "Preliminary Study on Active 3D Reconstruction for Underwater Close-range Interaction with Lighting-Camera Systems."
+
 ## 2. The physical model of UW visual environment
 
 <p align='center'>
