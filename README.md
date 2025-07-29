@@ -1,8 +1,41 @@
 # UW-Albedo-Estimation
+
+## 1. Intro
 In close-range underwater interactions, two information of object is needed: shape & surface information.
 3D shape can be obtained by sonar, but precisice surface infos like texutre, colors are only can be captured by camera.
 But in underwater (UW), 3 main issues(Attenuation, Scattering, Turbidity) make camera measurements differs by time & place.
 To avoid measurement issues with UW domain, the surface information can be represented with _**albedo**_, fraction of light that is diffusely reflected by a body. (~from [NBUV, CVPR 2017](https://openaccess.thecvf.com/content_cvpr_2016/papers/Sheinin_The_Next_Best_CVPR_2016_paper.pdf))
-And with _**albedo**_, we can estimate unknown object's surface texture & use as cost function for automated light-camera system's Next Best Sensor & Light View Planning. (also, from [NBUV](https://openaccess.thecvf.com/content_cvpr_2016/papers/Sheinin_The_Next_Best_CVPR_2016_paper.pdf))
+And with _**albedo**_, we can estimate unknown object's surface texture & use as cost function for automated light-camera system(img in below)'s Next Best Sensor & Light View Planning. (also, from [NBUV](https://openaccess.thecvf.com/content_cvpr_2016/papers/Sheinin_The_Next_Best_CVPR_2016_paper.pdf))
+<p align='center'>
+  <img src="https://github.com/user-attachments/assets/ca33722d-f389-4298-9afc-2187cb95ad23">
+</p>
 
 In this project, I tried to implement albedo estimation to understand physical component of UW visual environments.
+
+## 2. The physical model of UW visual environment
+
+<p align='center'>
+  <img src="https://github.com/user-attachments/assets/e85a3321-a802-425a-80fe-4e5f6dbbed23">
+</p>
+
+<p align='center'>
+  <img src="https://github.com/user-attachments/assets/d2eb383b-3411-46aa-b478-d943f1854db1">
+</p>
+
+## 3. The pipeline of albedo estimation
+
+<p align='center'>
+  <img src="https://github.com/user-attachments/assets/624a81bd-df37-4b0d-8359-67b7bbdcd746">
+</p>
+
+## 4. Experiment & Validation
+
+<p align='left'>
+  <img src="https://github.com/user-attachments/assets/d1d4e885-4f69-4478-8fe8-4a05918b0b26">
+</p>
+
+<p align='right'>
+  <img src="https://github.com/user-attachments/assets/bff8b7c0-f501-46a2-9aa9-bd6ab26e6a13">
+</p>
+
+## 5. Future works
