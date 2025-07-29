@@ -15,34 +15,34 @@ In this project, I tried to implement albedo estimation to understand physical c
 ## 2. The physical model of UW visual environment
 
 <p align='center'>
-  <img src="https://github.com/user-attachments/assets/e85a3321-a802-425a-80fe-4e5f6dbbed23">
+  <img src="https://github.com/user-attachments/assets/e85a3321-a802-425a-80fe-4e5f6dbbed23" width="300">
 </p>
 
 <p align='center'>
-  <img src="https://github.com/user-attachments/assets/d2eb383b-3411-46aa-b478-d943f1854db1">
+  <img src="https://github.com/user-attachments/assets/d2eb383b-3411-46aa-b478-d943f1854db1" width="400">
 </p>
 
 ## 3. The pipeline of albedo estimation
 
 <p align='center'>
-  <img src="https://github.com/user-attachments/assets/624a81bd-df37-4b0d-8359-67b7bbdcd746">
+  <img src="https://github.com/user-attachments/assets/624a81bd-df37-4b0d-8359-67b7bbdcd746" width="600">
 </p>
 
 ## 4. Experiment & Validation
 
 ### Experiment setup
 <p align='center'>
-  <img src="https://github.com/user-attachments/assets/d1d4e885-4f69-4478-8fe8-4a05918b0b26">
+  <img src="https://github.com/user-attachments/assets/d1d4e885-4f69-4478-8fe8-4a05918b0b26" width="300">
 </p>
 
 <p align='center'>
-  <img src="https://github.com/user-attachments/assets/bff8b7c0-f501-46a2-9aa9-bd6ab26e6a13">
+  <img src="https://github.com/user-attachments/assets/bff8b7c0-f501-46a2-9aa9-bd6ab26e6a13" width="300">
 </p>
 
 ### Validation results
 
 <p align='center'>
-  <img src="https://github.com/user-attachments/assets/8d63bd39-5f3b-4bbc-87cb-a58c6414600e">
+  <img src="https://github.com/user-attachments/assets/8d63bd39-5f3b-4bbc-87cb-a58c6414600e" width="600">
 </p>
 
 ## 5. So...
