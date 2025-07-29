@@ -7,7 +7,7 @@ But in underwater (UW), 3 main issues(Attenuation, Scattering, Turbidity) make c
 To avoid measurement issues with UW domain, the surface information can be represented with _**albedo**_, fraction of light that is diffusely reflected by a body. (~from [NBUV, CVPR 2017](https://openaccess.thecvf.com/content_cvpr_2016/papers/Sheinin_The_Next_Best_CVPR_2016_paper.pdf))
 And with _**albedo**_, we can estimate unknown object's surface texture & use as cost function for automated light-camera system(img in below)'s Next Best Sensor & Light View Planning. (also, from [NBUV](https://openaccess.thecvf.com/content_cvpr_2016/papers/Sheinin_The_Next_Best_CVPR_2016_paper.pdf))
 <p align='center'>
-  <img src="https://github.com/user-attachments/assets/ca33722d-f389-4298-9afc-2187cb95ad23">
+  <img src="https://github.com/user-attachments/assets/ca33722d-f389-4298-9afc-2187cb95ad23" width="600">
 </p>
 
 In this project, I tried to implement albedo estimation to understand physical component of UW visual environments.
@@ -45,4 +45,16 @@ In this project, I tried to implement albedo estimation to understand physical c
   <img src="https://github.com/user-attachments/assets/8d63bd39-5f3b-4bbc-87cb-a58c6414600e">
 </p>
 
-## 5. Future works
+## 5. So...
+
+### Conclusion
+- Surface information of target objects is essential for underwater task automation.
+- In a simplified optical model of the underwater visual environment, surface information is represented by surface reflectance.
+- The functionality of surface reflectance estimation was validated through a pipeline implementation in a simulator.
+- For arbitrary poses and single images, an optimized pose combination and multiple images are required!
+
+### Future Works
+- Modeling more realistic underwater visual environments under conditions such as turbidity.
+- Target objects with more complex structures and surface textures.
+- Research on optimal camera and lighting positions for automated perception, including Next Best View (NBV) and coverage path planning.
+
