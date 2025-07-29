@@ -30,12 +30,19 @@ In this project, I tried to implement albedo estimation to understand physical c
 
 ## 4. Experiment & Validation
 
-<p align='left'>
+### Experiment setup
+<p align='center'>
   <img src="https://github.com/user-attachments/assets/d1d4e885-4f69-4478-8fe8-4a05918b0b26">
 </p>
 
-<p align='right'>
+<p align='center'>
   <img src="https://github.com/user-attachments/assets/bff8b7c0-f501-46a2-9aa9-bd6ab26e6a13">
+</p>
+
+### Validation results
+
+<p align='center'>
+  <img src="https://github.com/user-attachments/assets/8d63bd39-5f3b-4bbc-87cb-a58c6414600e">
 </p>
 
 ## 5. Future works
